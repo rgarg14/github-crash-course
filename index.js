@@ -30,7 +30,7 @@ function say(){
 // commit ka user friendly msg hota
 // git commit -m " "
 
-// git log gives history of commits
+// git log ->gives history of commits
 // there is id of each commit
 
 function above18(){
@@ -40,3 +40,18 @@ function above18(){
 // change name with name 1 and do git diff
 // we made changes so we will do git add .
 // then commit
+// if after git diff u get output it means something is uncommitted
+// git log --oneline shows recent commits
+
+// git show (gitid) means without brackets show commit changes in that particular commit
+// after git show press q to quit the view as git how is read only viewe u cant edit 
+
+// git blame (filename) -> to check which line when and who have changed it.
+
+function newfn(){
+    console.log("hy i am new func")
+}
+
+// git status tells files u chnges,ready to be saved,not tracking
+
+// after changes if we commit it will not happen as staging area is empty. so first put those changed files in staging area by git add then commit
