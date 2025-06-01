@@ -9,10 +9,10 @@ const age=24;
 // after git add it moves file to staging area(waiting room for files)
 // staging area is like shopping cart and checkout with bill is like git commit
 // M-> modified
-const name="riya garg";
+const name1="riya garg";
 const dob="03/10/2005";
 function say(){
-    console.log("my name is"+name)
+    console.log("my name is"+name1)
 }
 // this green line shows tracking
 // git diff shows + sign with lines we added
@@ -27,3 +27,16 @@ function say(){
 // git rm --cached <path>
 
 // ******** Commit *********
+// commit ka user friendly msg hota
+// git commit -m " "
+
+// git log gives history of commits
+// there is id of each commit
+
+function above18(){
+    return age>=18
+}
+
+// change name with name 1 and do git diff
+// we made changes so we will do git add .
+// then commit
