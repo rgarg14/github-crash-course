@@ -53,6 +53,9 @@ function above18(){
 function newfn(){
     console.log("hy i am new func")
 }
+function newfeat(){
+    console.log("new part");
+}
 
 // git status tells files u chnges,ready to be saved,not tracking
 
@@ -86,3 +89,12 @@ function newfn(){
 // after questions do cd ~/.ssh
 // then ls if have one pair of ssh keys otherwise do ls | grep id to show files with that id;ls | grep .pub ->show public ssh keys; ls | grep github -> shows files that contain github.
 // after that do cat
+
+
+// if we revert any commit after pushing that we have to push again and to do that we have to do forcefully:
+// git push -f to reset head.
+
+
+// to check current branch-> git branch
+// to create brach from head-> git branch "name of branch"
+// to go to new branch -> git checkout (branch name)
