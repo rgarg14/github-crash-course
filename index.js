@@ -55,3 +55,17 @@ function newfn(){
 // git status tells files u chnges,ready to be saved,not tracking
 
 // after changes if we commit it will not happen as staging area is empty. so first put those changed files in staging area by git add then commit
+
+// we made changes in utils file by giving a wrong thing like b1 and b as variables but we want revert back so to do this we have to go to previous commit to do that we will do
+// git reset --hard (previous commit id)
+// it will delete that faulty git and make changes like before that commit
+
+// if we have to remove commit in between may commits without deleting them all we do
+// git revert (that commit id)
+
+
+// when we do git remote -v nothing gets consoled in nature as we dont have remote here(github)
+
+
+// to add remote git remote add <any name u can give but typically given is origin> (repository url link)
+// origin or any name is just a nickname for url
