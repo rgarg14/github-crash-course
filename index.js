@@ -98,3 +98,7 @@ function newfeat(){
 // to check current branch-> git branch
 // to create brach from head-> git branch "name of branch"
 // to go to new branch -> git checkout (branch name)
+// to merge new branch into main first we have to do commit then checkout to main branch and then by git:
+// git merge origin/(branch name)
+
+// to create new branch and switch to that -> git checkout -b "new branch "
