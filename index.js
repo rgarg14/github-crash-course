@@ -14,6 +14,8 @@ const dob="03/10/2005";
 function say(){
     console.log("my name is"+name1)
 }
+
+const age1=56;
 // this green line shows tracking
 // git diff shows + sign with lines we added
 
@@ -69,3 +71,18 @@ function newfn(){
 
 // to add remote git remote add <any name u can give but typically given is origin> (repository url link)
 // origin or any name is just a nickname for url
+
+// push our commit to origin branch main as we were on master so we changed our master branch name to main branch by :
+// git branch -M (change name)
+
+// git push -u origin main
+
+
+// ese toh mere server pae koi bhi push krdega changes with url but its not like this.for that we need authentication called SSH key authentication secure shell->so if we generate this no one can access. bcoz it generates two keys :
+// 1.Private key
+// 2.Public key
+// public key we copy it on our account.when we try to push anything with private key it will match with public key.
+// account->settings->sshand gpg keys->new ssh key->generating ssh key->mac choose->copy ssh-keygen -t ed25519 -c "email"->paste it on terminal->answers the questions after it.
+// after questions do cd ~/.ssh
+// then ls if have one pair of ssh keys otherwise do ls | grep id to show files with that id;ls | grep .pub ->show public ssh keys; ls | grep github -> shows files that contain github.
+// after that do cat
